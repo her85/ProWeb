@@ -1,0 +1,33 @@
+header {
+    background-color: darkgrey;
+}
+
+body {
+    background-color: azure;
+    text-align: center;
+}
+footer{
+    background-color: antiquewhite;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+#contenedor{
+    width:770px;
+    margin: 50px auto 0 auto;
+}
+
+.li {
+    background-color: cornsilk;
+}
+
+.ld {
+    background-color: darkgray;
+}
