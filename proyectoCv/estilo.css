@@ -1,13 +1,15 @@
 header {
-    background-color: blanchedalmond;
+    background-color: dodgerblue;
 }
 
 body {
-    background-color: azure;
+    background-color: lightsteelblue;
     text-align: center;
+    border: 3px solid royalblue;
 }
-footer{
-    background-color: antiquewhite;
+
+footer {
+    background-color: dodgerblue;
 }
 
 h2 {
@@ -19,15 +21,24 @@ img {
     height: 150px;
 }
 
-#contenedor{
-    width:770px;
+#contenedor {
+    width: 770px;
     margin: 50px auto 0 auto;
+    border: 2px solid black;
 }
 
-.li {
-    background-color: cornsilk;
+.contenedorSecundario{
+    width: 780px;
+    margin: 60px auto 0 auto;
 }
 
-.ld {
-    background-color: darkgray;
+
+.gris {
+    background-color: darkgrey;
+    border: 1px solid royalblue;
+}
+
+.celeste {
+    background-color: lightblue;
+    border: 1px solid royalblue;
 }
