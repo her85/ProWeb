@@ -24,20 +24,35 @@ img {
     height: 150px;
 }
 
+table {
+    margin: 15px;
+    padding: 30px;
+}
+
 
 #contenedor {
     width: 770px;
     margin: auto;
 }
 
-#gris {
+.gris {
     background-color: darkgrey;
+    border: 1px solid black;
+    text-align: center;
+    float: left;
+    width: 383px;
+    height: 296px;
+}
+
+.blanco {
+    background-color: bisque;
     border: 1px solid black;
     text-align: center;
 }
 
-#blanco {
-    background-color: bisque;
+.formulario {
+    background-color: darkgrey;
     border: 1px solid black;
     text-align: center;
+    padding: 40px;
 }
