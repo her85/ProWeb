@@ -7,12 +7,12 @@
     <title>Curriculum vitae</title>
 </head>
 
-<header id="contenedor">
-    <h1 style="text-align: center;"><strong>Curriculum vitae</strong></h1>
-</header>
+
 
 <body id="contenedor">
-
+    <header>
+        <h1>Curriculum vitae</h1>
+    </header>
     <div>
         <div class="blanco">
             <div>
@@ -24,12 +24,10 @@
                 <h3>
                     <p>Hernan Botto</p>
                 </h3>
-
-                <p>
-                    <li>Telefono: 1149468784</li>
-                    <li>Mail: herbotto1985@gmail.com</li>
-                </p>
-
+                <div>
+                    Telefono: 1149468784 <br>
+                    Mail: herbotto1985@gmail.com
+                </div>
             </div>
 
             <div>
@@ -57,13 +55,13 @@
                     <th>Universidad de Moron</th>
                 </tr>
                 <td>
-                    <li>Tecnico en accidentologia vial - 2015</li>
+                    Tecnico en accidentologia vial - 2015
                 </td>
                 <tr>
                     <th>Universidad Nacional del Oeste</th>
                 </tr>
                 <td>
-                    <li>Tecnicatura en desarrollo web - en curso</li>
+                    Tecnicatura en desarrollo web - en curso
                 </td>
             </table>
         </div>
@@ -77,16 +75,16 @@
                     <th>Cesvi Argentina</th>
                 </tr>
                 <td>
-                    Consultor pericial
-                    <li>Enero 2013 - Octubre 2015</li>
+                    Consultor pericial <br>
+                    Enero 2013 - Octubre 2015
                 </td>
                 <tr>
                     <th> Ok tecnico</th>
                 </tr>
 
                 <td>
-                    Analista de siniestros
-                    <li>Noviembre 2015 - Actualidad</li>
+                    Analista de siniestros <br>
+                    Noviembre 2015 - Actualidad
                 </td>
             </table>
         </div>
@@ -95,16 +93,14 @@
             <form action="#" class="formulario">
                 <fieldset>
                     <legend>Para contactarme</legend>
-                    <p><label>Nombre completo: <input type="text" name="nombre" /></label></p>
-                    <p><label>Correo electronico: <input type="email" name="correo" /></label></p>
-                    <p><label>El motivo de su contacto:<br>
-                            <textarea name="mensaje"
-                                style="padding: 40px; background-color: bisque;"></textarea></label>
-                    </p>
-                    <p>
+                    <p><label>Nombre completo: </label><input type="text" name="nombre"></p>
+                    <p><label>Correo electronico:</label> <input type="email" name="correo"></p>
+                    <label>El motivo de su contacto:<br>
+                        <textarea name="mensaje"></textarea></label>
+                    <div>
                         <input type="submit" value="Enviar mensaje">
                         <input type="reset" value="Borrar todo">
-                    </p>
+                    </div>
                 </fieldset>
             </form>
         </div>

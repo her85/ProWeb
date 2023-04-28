@@ -14,6 +14,10 @@ footer {
     text-align: center;
 }
 
+h1 {
+    text-align: center;
+}
+
 h2 {
     text-decoration: underline;
 }
@@ -34,6 +38,10 @@ input {
     color: slategray;
 }
 
+textarea {
+    padding: 40px;
+    background-color: bisque;
+}
 
 #contenedor {
     width: 770px;
