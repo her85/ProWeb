@@ -1,41 +1,46 @@
-header {
-    background-color: bisque;
-}
-
 body {
-    background-color: lightsteelblue;
+    background-color: lightgray;
     font-style: oblique;
     font-size: 120%;
-    color: slategray;
+    color: darkolivegreen;
 }
 
-footer {
-    background-color: bisque;
+h3 {
+    border: 1px solid lightgray;
     text-align: center;
+    margin: auto;
 }
 
-h1 {
+a{
+    border: 1px solid lightgray;
     text-align: center;
+    margin: auto;
+    color: darkolivegreen;
 }
 
+
+p{
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+}
+
+h1,
 h2 {
     text-decoration: underline;
+    text-align: center;
 }
 
 img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
-table {
-    margin: 15px;
-    padding: 20px;
-}
 
 input {
     background-color: bisque;
     border-color: lightblue;
-    color: slategray;
+    color: darkolivegreen;
 }
 
 textarea {
@@ -43,29 +48,43 @@ textarea {
     background-color: bisque;
 }
 
-#contenedor {
-    width: 770px;
+table {
+    text-align: center;
     margin: auto;
 }
 
-.gris {
-    background-color: lightgrey;
-    border: 0.5px solid lightblue;
-    text-align: center;
-    float: left;
-    width: 383px;
-    height: 296px;
+#cajaPrincipal {
+    border: 3px solid black;
+    width: 700px;
+    margin: auto;
 }
 
-.blanco {
-    background-color: bisque;
-    border: 1px solid lightblue;
+.imagen {
     text-align: center;
+    background-image: url(Imagen/DSC_0008.jpg);
+}
+
+.cajaGris {
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    display: inline-block;
+    width: 340px;
+    margin: 0%;
+}
+
+.cajaBlanca {
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    border-left: 1px solid black; ;
+    display: inline-block;
+    width: 340px;
+    margin: 0%;
 }
 
 .formulario {
-    background-color: lightgrey;
-    border: 1px solid lightblue;
+    background-color: darkolivegreen;
+    border: 1px solid black;
     text-align: center;
-    padding: 40px;
+    border-top: 2px solid black;
+    color: lightgray;
 }
