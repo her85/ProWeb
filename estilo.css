@@ -1,18 +1,18 @@
 body {
-    background-color: lightgray;
+    background-color: gray;
     font-style: inherit;
     font-size: 120%;
     color: darkolivegreen;
 }
 
 h3 {
-    border: 1px solid lightgray;
+    border: 1px solid gray;
     text-align: center;
     margin: auto;
 }
 
 a {
-    border: 1px solid lightgray;
+    border: 1px solid gray;
     text-align: center;
     margin: auto;
     color: darkolivegreen;
@@ -43,7 +43,7 @@ input {
 }
 
 textarea {
-    padding: 40px;
+    padding: 25px;
     background-color: bisque;
     border: 1px solid black;
 }
@@ -59,21 +59,19 @@ table {
     margin: auto;
 }
 
-.cajaDer {
-    background-color: lightgray;
-    border: 1px solid lightgray;
+.cajaIzq {
+    background-color: gray;
+    border: 1px solid gray;
     display: inline-block;
+    border-right: 1px solid black;
     width: 340px;
-    margin: 0%;
 }
 
-.cajaIzq {
-    background-color: lightgray;
-    border: 1px solid lightgray;
-    border-left: 1px solid black;
+.cajaDer {
+    background-color: gray;
+    border: 1px solid gray;
     display: inline-block;
     width: 340px;
-    margin: 0%;
 }
 
 .formulario {
@@ -90,5 +88,6 @@ table {
 
 .imagen {
     text-align: center;
-    background-image: url(Imagen/DSC_0008.jpg);
+    background-color: gray;
+    border:1px solid black ;
 }
