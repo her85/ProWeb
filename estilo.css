@@ -66,6 +66,15 @@ table {
     width: 340px;
 }
 
+.cajaIzq2 {
+    color:darkolivegreen ;
+    background-color: beige;
+    display: inline-block;
+    width: 340px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
 .cajaDer {
     background-color: lightgray;
     display: inline-block;
@@ -78,12 +87,16 @@ table {
     text-align: center;
     border-top: 3px solid black;
     color: lightgray;
+    width: 340px;
+    display: inline-block;
 }
 
 .borde {
     border: 3px solid darkolivegreen;
     padding: 10px;
 }
+
+
 
 .imagen {
     text-align: center;
