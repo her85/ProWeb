@@ -1,5 +1,5 @@
 body {
-    background-color:lightgray;
+    background-color: lightgray;
     font-style: inherit;
     font-size: 120%;
     color: darkolivegreen;
@@ -17,6 +17,10 @@ a {
     color: darkolivegreen;
 }
 
+a:hover {
+    text-decoration: underline;
+    color: darkblue;
+}
 
 p {
     text-align: center;
@@ -61,7 +65,7 @@ table {
 }
 
 .cajaIzq {
-    color:darkolivegreen ;
+    color: darkolivegreen;
     background-color: beige;
     display: inline-block;
     width: 340px;
@@ -69,7 +73,7 @@ table {
 }
 
 .cajaIzq2 {
-    color:darkolivegreen ;
+    color: darkolivegreen;
     background-color: beige;
     display: inline-block;
     width: 340px;
