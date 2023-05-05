@@ -1,5 +1,4 @@
 body {
-    background-color: lightgray;
     font-style: inherit;
     font-size: 120%;    
     color: darkolivegreen;
@@ -11,15 +10,11 @@ h3 {
 }
 
 footer{
-    width: 700px;
     margin: auto;
-    background-color: beige;
     margin-top: 10px;
-    border: 4px solid black;
 }
 
 a {
-    border: 1px solid beige;
     text-align: center;
     margin: auto;
     color: darkolivegreen;
@@ -43,8 +38,8 @@ h2 {
 }
 
 img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 
 
@@ -65,21 +60,19 @@ table {
     margin: auto;
 }
 
-#cajaBody {
-    width: 700px;
+#cajaPrincipal {
+    width: 1000px;
     margin: auto;
     background-color: lightgray;
 }
 
-#cajaPrincipal {
+#cajaSecundaria {
     border: 4px solid black;
-    width: 700px;
     margin: auto;
     background-color: beige;
 }
-#cajaPrincipal2 {
+#cajaSecundaria2 {
     border: 4px solid black;
-    width: 700px;
     margin: auto;
     margin-top: 10px;
     background-color: beige;
@@ -89,7 +82,7 @@ table {
     color: darkolivegreen;
     background-color: beige;
     display: inline-block;
-    width: 340px;
+    width: 480px;
     margin-bottom: 20px;
 }
 
@@ -97,7 +90,7 @@ table {
     color: darkolivegreen;
     background-color: beige;
     display: inline-block;
-    width: 340px;
+    width: 480px;
     margin-top: 0;
     margin-bottom: 0px;
 }
@@ -105,7 +98,7 @@ table {
 .cajaDer {
     background-color: beige;
     display: inline-block;
-    width: 340px;
+    width: 480px;
 }
 
 .formulario {
@@ -113,7 +106,7 @@ table {
     border: 1px solid black;
     text-align: center;
     color: lightgray;
-    width: 340px;
+    width: 480px;
     display: inline-block;
     margin-bottom: 5px;
 }
