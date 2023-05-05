@@ -61,7 +61,7 @@ table {
 }
 
 #cajaPrincipal {
-    width: 1000px;
+    width: 1200px;
     margin: auto;
     background-color: lightgray;
 }
@@ -82,7 +82,7 @@ table {
     color: darkolivegreen;
     background-color: beige;
     display: inline-block;
-    width: 480px;
+    width: 580px;
     margin-bottom: 20px;
 }
 
@@ -90,7 +90,7 @@ table {
     color: darkolivegreen;
     background-color: beige;
     display: inline-block;
-    width: 480px;
+    width: 580px;
     margin-top: 0;
     margin-bottom: 0px;
 }
@@ -98,7 +98,7 @@ table {
 .cajaDer {
     background-color: beige;
     display: inline-block;
-    width: 480px;
+    width: 580px;
 }
 
 .formulario {
@@ -106,7 +106,7 @@ table {
     border: 1px solid black;
     text-align: center;
     color: lightgray;
-    width: 480px;
+    width: 580px;
     display: inline-block;
     margin-bottom: 5px;
 }
