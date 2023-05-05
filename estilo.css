@@ -2,6 +2,8 @@ body {
     font-style: inherit;
     font-size: 120%;    
     color: darkolivegreen;
+    margin: auto;
+    background-color: lightgray;
 }
 
 h3 {
@@ -61,20 +63,13 @@ table {
 }
 
 #cajaPrincipal {
-    height: 100%;
-    width: 100%;
-    margin: auto;
-    background-color: lightgray;
-}
-
-#cajaSecundaria {
     height: 90%;
     width: 90%;
     border: 4px solid black;
     margin: auto;
     background-color: beige;
 }
-#cajaSecundaria2 {
+#cajaSecundaria {
     height: 90%;
     width: 90%;
     border: 4px solid black;
