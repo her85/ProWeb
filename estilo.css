@@ -1,7 +1,7 @@
 body {
     background-color: lightgray;
     font-style: inherit;
-    font-size: 120%;
+    font-size: 120%;    
     color: darkolivegreen;
 }
 
@@ -63,6 +63,12 @@ textarea {
 table {
     text-align: center;
     margin: auto;
+}
+
+#cajaBody {
+    width: 700px;
+    margin: auto;
+    background-color: beige;
 }
 
 #cajaPrincipal {
