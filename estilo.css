@@ -61,6 +61,7 @@ table {
 }
 
 #cajaPrincipal {
+    height: 1200px;
     width: 1200px;
     margin: auto;
     background-color: lightgray;
