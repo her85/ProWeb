@@ -23,6 +23,7 @@ p {
     margin: auto;
 }
 
+
 h1,
 h2 {
     text-decoration: underline;
@@ -36,14 +37,14 @@ img {
 
 
 input {
-    background-color: bisque;
+    background-color: beige;
     border-color: black;
     color: darkolivegreen;
 }
 
 textarea {
     padding: 25px;
-    background-color: bisque;
+    background-color: beige;
     border: 1px solid black;
 }
 
@@ -64,6 +65,7 @@ table {
     background-color: beige;
     display: inline-block;
     width: 340px;
+    margin-bottom: 20px;
 }
 
 .cajaIzq2 {
@@ -72,11 +74,11 @@ table {
     display: inline-block;
     width: 340px;
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 
 .cajaDer {
-    background-color: lightgray;
+    background-color: beige;
     display: inline-block;
     width: 340px;
 }
@@ -89,6 +91,7 @@ table {
     color: lightgray;
     width: 340px;
     display: inline-block;
+    margin-bottom: 20px;
 }
 
 .borde {
@@ -96,7 +99,10 @@ table {
     padding: 10px;
 }
 
-
+.borde2 {
+    border: 3px solid beige;
+    padding: 10px;
+}
 
 .imagen {
     text-align: center;
