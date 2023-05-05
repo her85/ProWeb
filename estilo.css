@@ -2,7 +2,6 @@ body {
     font-style: inherit;
     font-size: 120%;    
     color: darkolivegreen;
-    margin: auto;
     background-color: lightgray;
 }
 
@@ -12,8 +11,7 @@ h3 {
 }
 
 footer{
-    margin: auto;
-    margin-top: 10px;
+    margin-top: 1%;
 }
 
 a {
@@ -55,6 +53,7 @@ textarea {
     padding: 25px;
     background-color: beige;
     border: 1px solid black;
+    height: 100px;
 }
 
 table {
