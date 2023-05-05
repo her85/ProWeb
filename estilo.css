@@ -74,7 +74,7 @@ table {
     display: inline-block;
     width: 340px;
     margin-top: 0;
-    margin-bottom: 35px;
+    margin-bottom: 0px;
 }
 
 .cajaDer {
@@ -87,11 +87,10 @@ table {
     background-color: darkolivegreen;
     border: 1px solid black;
     text-align: center;
-    border-top: 3px solid black;
     color: lightgray;
     width: 340px;
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .borde {
