@@ -3,6 +3,8 @@ body {
     font-size: 120%;    
     color: darkolivegreen;
     background-color: lightgray;
+    margin: auto;
+    width: 90%;
 }
 
 h3 {
@@ -18,6 +20,9 @@ a {
     text-align: center;
     margin: auto;
     color: darkolivegreen;
+}
+fieldset{
+    margin: auto;
 }
 
 a:hover {
@@ -47,6 +52,7 @@ input {
     background-color: beige;
     border-color: black;
     color: darkolivegreen;
+    margin: auto;
 }
 
 textarea {
@@ -54,6 +60,7 @@ textarea {
     background-color: beige;
     border: 1px solid black;
     height: 100px;
+    margin: auto;
 }
 
 table {
@@ -63,14 +70,14 @@ table {
 
 #cajaPrincipal {
     height: 90%;
-    width: 90%;
+    width: 100%;
     border: 4px solid black;
     margin: auto;
     background-color: beige;
 }
 #cajaSecundaria {
     height: 90%;
-    width: 90%;
+    width: 100%;
     border: 4px solid black;
     margin: auto;
     margin-top: 10px;
@@ -83,6 +90,7 @@ table {
     display: inline-block;
     width: 50%;
     margin-bottom: 20px;
+    margin: auto;
 }
 
 .cajaIzq2 {
@@ -92,12 +100,14 @@ table {
     width: 50%;
     margin-top: 0;
     margin-bottom: 0px;
+    margin: auto;
 }
 
 .cajaDer {
     background-color: beige;
     display: inline-block;
     width: 45%;
+    margin: auto;
 }
 
 .formulario {
@@ -108,6 +118,7 @@ table {
     width: 45%;
     display: inline-block;
     margin-bottom: 5px;
+    margin: auto;
 }
 
 .borde {
