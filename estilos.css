@@ -1,12 +1,10 @@
 body {
-    border: solid black 1px;
+    border: solid lightgreen 5px;
 }
 
 header {
     margin-top: 15px;
     text-align: center;
-    background-color: lightgray;
-    border: solid lightgreen 2px;
 }
 
 
@@ -17,48 +15,36 @@ footer {
     color: black;
 }
 
-.nombre {
+.nombreTitulo {
+    margin-top: 50px; 
+    font-size: 350%;
+}
+
+.presentacion {
+    margin-top: 50px;
+    text-align: center;
     background-color: lightgreen;
+    border: solid black 2px;
 }
 
 .imagenPerfil {
-    max-width: 20%;
-    max-height: 20%;
-    margin-bottom: 1px;
-    margin-top: 5px;
-    border: solid lightgreen 2px;
+    max-width: 70%;
+    max-height: 70%;
+    margin-top: 50px;
 }
 
 .logo {
-    max-width: 5%;
-    max-height: 5%;
+    max-width: 7%;
+    max-height: 7%;
 }
 
 .Encabezado1 {
-    margin-top: 20px;
+    font-size: 120%;
+}
+
+.centerFormulario {
     text-align: center;
     background-color: lightgreen;
-    font-size: 150%;
-}
-
-.Encabezado2 {
-    text-align: center;
-    font-size: 150%;
-}
-
-.Encabezado3 {
-    text-align: center;
-    background-color: lightgreen;
-    font-size: 150%;
-}
-
-.center {
-    text-align: center;
-    background-color: lightgray;
-}
-
-
-
-.fondoColor {
-    background-color: lightgreen;
+    border: solid black 2px;
+    padding-bottom: 5px;
 }

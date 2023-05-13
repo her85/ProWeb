@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,15 +13,27 @@
     <title>CVWeb</title>
 </head>
 
-<body class="container">
+<body class="container-sm">
 
-    <header>
-        <div>
+    <header class="row">
+
+        <div class="col">
             <img src="Imagen/Perfil.jpg" class="imagenPerfil" alt="fotoCv">
         </div>
-        <h1>
-            Hernan Botto
-        </h1>
+
+        <div class="col">
+            <h1 class="nombreTitulo">
+                Hernan <br> Botto
+            </h1>
+            <div class="presentacion">
+                <h2>Acerca de mi</h2>
+                <p>
+                    Siempre me ha gustado trabajar en equipo y he desempeñado roles de liderazgo.
+                    Soy una persona proactiva, que disfruta enfrentando desafíos y aprendiendo cosas nuevas.
+                </p>
+            </div>
+        </div>
+
     </header>
 
     <main class="row">
@@ -30,73 +41,83 @@
         <section class="col">
 
             <div class="container-sm">
-                <div>
-                    <h2 class="Encabezado1">Datos personales</h2>
-                    
-                    <div class="center">
-                        <img src="Imagen/icons8-teclado-numérico-64.png" class="logo" alt="telefono"> 1149468784 <br>
 
-                        <img src="Imagen/icons8-nuevo-mensaje-64.png" class="logo" alt="mail"> herbotto1985@gmail.com
-                    </div><br>
-            
-                    <div class="center">
-                        <h3 class="Encabezado2">Acerca de mi</h2>
-                            <p>
-                                Siempre me ha gustado trabajar en equipo y he desempeñado roles de liderazgo.
-                                Soy una persona proactiva, que disfruta enfrentando desafíos y aprendiendo cosas nuevas.
-                            </p>
+                <table class="table table-hover">
+                    <thead class="Encabezado1">
+                        <tr>
+                            <th>Datos personales</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="Imagen/icons8-teclado-numérico-64.png" class="logo" alt="telefono"> 1149468784
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><img src="Imagen/icons8-nuevo-mensaje-64.png" class="logo" alt="mail">
+                                herbotto1985@gmail.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table class="table table-hover">
+                    <thead class="Encabezado1">
+                        <tr>
+                            <th>Redes sociales</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="Imagen/icons8-github-64.png" class="logo" alt="github">
+                                <a href="https://github.com/her85" target="_blank"> Github
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> <img src="Imagen/icons8-linkedin-rodeado-de-círculo-48.png" class="logo" alt="lkd">
+                                <a href="https://www.linkedin.com/in/hernan-botto-b36a981a/" target="_blank"> Linkedin
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="Imagen/icons8-instagram-64.png" class="logo" alt="insta">
+                                <a href="https://instagram.com/herbott_85?igshid=ZDdkNTZiNTM=" target="_blank"> Instagram
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <form>
+                    <div class="centerFormulario">
+                        <legend>Para contactarme</legend>
+                        <p><label for="nombre">Nombre y Apellido:</label><br><input type="text" id="nombre"></p>
+                        <p><label for="correo">Correo electronico:</label><br><input type="email" id="correo"></p>
+                        <label for="mensaje">El motivo de su contacto:</label><br>
+                        <textarea id="mensaje"></textarea>
+                        <div>
+                            <input type="submit" value="Enviar mensaje">
+                            <input type="reset" value="Borrar todo">
+                        </div>
                     </div>
-                </div>
+                </form>
+
             </div>
 
-            <div class="container-sm">
-                <h2 class="Encabezado3">
-                    Enlaces a paginas
-                </h2>
-                <div class="center">
-                    <a href="https://github.com/her85" target="_blank">
-                        <p>
-                            <img src="Imagen/icons8-github-64.png" class="logo" alt="github"> Ir al portfolio
-                        </p>
-                    </a>
-                    <a href="https://www.linkedin.com/in/hernan-botto-b36a981a/" target="_blank">
-                        <p>
-                            <img src="Imagen/icons8-linkedin-rodeado-de-círculo-48.png" class="logo" alt="lkd"> Linkedin
-                        </p>
-                    </a>
-                    <a href="https://instagram.com/herbott_85?igshid=ZDdkNTZiNTM=" target="_blank">
-                        <p>
-                            <img src="Imagen/icons8-instagram-64.png" class="logo" alt="insta"> Instagram
-                        </p>
-                    </a>
-                </div>
-            </div>
-
-            <form class="container-sm">
-                <div class="center">
-                    <h2 class="Encabezado3">Para contactarme</h2>
-                    <p><label for="nombre">Nombre y Apellido:</label><br><input type="text" id="nombre"></p>
-                    <p><label for="correo">Correo electronico:</label><br><input type="email" id="correo"></p>
-                    <label for="mensaje">El motivo de su contacto:</label><br>
-                    <textarea id="mensaje"></textarea>
-                    <div>
-                        <input type="submit" value="Enviar mensaje">
-                        <input type="reset" value="Borrar todo">
-                    </div>
-                </div>
-            </form>
         </section>
 
         <section class="col">
 
             <div class="container-sm">
+
                 <table class="table table-hover">
-                    <thead>
+                    <thead class="Encabezado1">
                         <tr>
-                            <th class="Encabezado2">Estudios</th>
+                            <th>Estudios</th>
                         </tr>
                     </thead>
-                    <tbody class="fondoColor">
+                    <tbody>
                         <tr>
                             <th>Universidad de Moron</th>
                         </tr>
@@ -113,12 +134,12 @@
                 </table>
 
                 <table class="table table-hover">
-                    <thead>
+                    <thead class="Encabezado1">
                         <tr>
-                            <th class="Encabezado2">Experiencia laboral</th>
+                            <th>Experiencia laboral</th>
                         </tr>
                     </thead>
-                    <tbody class="fondoColor">
+                    <tbody>
                         <tr>
                             <th>Cesvi Argentina</th>
                         </tr>
@@ -138,12 +159,12 @@
                 </table>
 
                 <table class="table table-hover">
-                    <thead>
+                    <thead class="Encabezado1">
                         <tr>
-                            <th class="Encabezado2">Cursos</th>
+                            <th>Cursos</th>
                         </tr>
                     </thead>
-                    <tbody class="fondoColor">
+                    <tbody>
                         <tr>
                             <th>Egg Academy</th>
                         </tr>
@@ -158,6 +179,7 @@
                         </td>
                     </tbody>
                 </table>
+
             </div>
 
         </section>
