@@ -18,20 +18,19 @@ footer {
 }
 
 .nombreTitulo {
-    margin-top: 50px;
-    font-size: 350%;
+    margin-top: 20px;
+    font-size: 550%;
 }
 
 .presentacion {
-    margin-top: 50px;
     text-align: center;
-    color: white;
 }
 
 .imagenPerfil {
-    max-width: 70%;
-    max-height: 70%;
-    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .logo {
