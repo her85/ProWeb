@@ -168,8 +168,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="telefono" class="form-label">Telefono de contacto</label>
-                        <input type="number"class="form-control" id="telefono" placeholder="1122334455"
-                            required>
+                        <input type="number" class="form-control" id="telefono" placeholder="1122334455" required>
                     </div>
                     <div class="mb-3">
                         <label for="sueldo" class="form-label">Sueldo que ofrece</label>
@@ -186,21 +185,21 @@
                 </form>
             </section>
         </section>
-        <div class="p-3 mb-2 bg-secondary text-white">
+        <div>
             <table id="data-table" class="table table-hover">
                 <thead>
-                  <tr>
-                    <th id="nombre-header" data-order="asc">Nombre</th>
-                    <th id="email-header" data-order="asc">Email</th>
-                    <th id="telefono-header" data-order="asc">Telefono</th>
-                    <th id="sueldo-header" data-order="asc">Sueldo ofrecido</th>
-                    <th id="sueldoEuro-header" data-order="asc">Sueldo en euros</th>
-                    <th id="sueldoDolar-header" data-order="asc">Sueldo en dolares</th>
-                  </tr>
+                    <tr>
+                        <th id="nombre-header" data-order="asc"><button type="button" class="btn btn-secondary">Nombre</button></th>
+                        <th id="email-header" data-order="asc"><button type="button" class="btn btn-secondary">Email</button></th>
+                        <th id="telefono-header" data-order="asc"><button type="button" class="btn btn-secondary">Telefono</button></th>
+                        <th id="sueldo-header" data-order="asc"><button type="button" class="btn btn-secondary">Sueldo ofrecido</button></th>
+                        <th id="sueldoEuro-header" data-order="asc"><button type="button" class="btn btn-secondary">Sueldo en euros</button></th>
+                        <th id="sueldoDolar-header" data-order="asc"><button type="button" class="btn btn-secondary">Sueldo en dolares</button></th>
+                    </tr>
                 </thead>
                 <tbody id="respuestas">
                 </tbody>
-              </table>
+            </table>
         </div>
     </main>
 

@@ -3,6 +3,8 @@ formulario = document.querySelector("#formulario");
 
 formulario.addEventListener("submit", validar);
 
+
+
 ofertas = [];
 
 function validar(e) {
@@ -43,6 +45,7 @@ function validar(e) {
         sueldo = document.querySelector("#sueldo").value = "";
         document.querySelector("#nombre").focus();
     }
+
 }
 
 
@@ -50,6 +53,8 @@ function llenarTabla() {
     tableBody = document.querySelector("#respuestas");
     tableBody.innerHTML = "";
 
+
+    // Resto del código de llenado de la tabla
     ofertas.forEach(dato => {
         fila = document.createElement("tr");
         nombreColumna = document.createElement("td");
@@ -75,6 +80,49 @@ function llenarTabla() {
         fila.appendChild(sueldoDolarColumna);
         tableBody.appendChild(fila);
     });
+
 }
 
+// Obtener referencias a las columnas de encabezado
+columnaNombre = document.querySelector("#nombre-header");
+columnaEmail = document.querySelector("#email-header");
+columnaTelefono = document.querySelector("#telefono-header");
+columnaSueldo = document.querySelector("#sueldo-header");
+columnaSueldoEuro = document.querySelector("#sueldoEuro-header");
+columnaSueldoDolar = document.querySelector("#sueldoDolar-header");
 
+// Agregar eventos de clic a las columnas de encabezado
+columnaNombre.addEventListener("click", () => ordenarTabla("nombre"));
+columnaEmail.addEventListener("click", () => ordenarTabla("email"));
+columnaTelefono.addEventListener("click", () => ordenarTabla("telefono"));
+columnaSueldo.addEventListener("click", () => ordenarTabla("sueldo"));
+columnaSueldoEuro.addEventListener("click", () => ordenarTabla("sueldoEuro"));
+columnaSueldoDolar.addEventListener("click", () => ordenarTabla("sueldoDolar"));
+
+columnaActual = ""; // Variable para almacenar la columna actualmente ordenada
+ordenAscendente = true; // Variable para almacenar el orden actual (ascendente o descendente)
+
+function ordenarTabla(columna) {
+    // Verificar si se está ordenando por la misma columna
+    if (columna === columnaActual) {
+        // Cambiar el orden de ascendente a descendente y viceversa
+        ordenAscendente = !ordenAscendente;
+    } else {
+        // Establecer la nueva columna de ordenamiento y el orden ascendente
+        columnaActual = columna;
+        ordenAscendente = true;
+    }
+
+    // Ordenar la tabla según la columna seleccionada y el orden actual
+    ofertas.sort((a, b) => {
+        if (a[columna] < b[columna]) {
+            return ordenAscendente ? -1 : 1;
+        } else if (a[columna] > b[columna]) {
+            return ordenAscendente ? 1 : -1;
+        } else {
+            return 0;
+        }
+    });
+
+    llenarTabla();
+}
