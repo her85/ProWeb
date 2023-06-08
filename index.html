@@ -28,11 +28,11 @@
                     <ul class="nav nav-pills nav-fill">
                         <li class="nav-item"><a href="https://www.whatsapp.com/?lang=es" target="_blank"><img
                                     src="Imagen/icons8-teclado-numérico-64.png" class="logo"
-                                    alt="telefono"></a><br><span>12345677777</span>
+                                    alt="telefono"></a><br><span>1149567777</span>
                         </li>
                         <li class="nav-item"> <a href="https://onedrive.live.com/about/es-ar/signin/"
                                 target="_blank"><img src="Imagen/icons8-nuevo-mensaje-64.png" class="logo"
-                                    alt="mail"></a><br><span>her@gmail.com</span>
+                                    alt="mail"></a><br><span>herbott_85@gmail.com</span>
                         </li>
                         <li class="nav-item">
                             <a href="https://github.com/her85" target="_blank">
@@ -168,7 +168,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="telefono" class="form-label">Telefono de contacto</label>
-                        <input type="tel" class="form-control" id="telefono" placeholder="Solo numeros"
+                        <input type="number"class="form-control" id="telefono" placeholder="1122334455"
                             required>
                     </div>
                     <div class="mb-3">
@@ -186,7 +186,21 @@
                 </form>
             </section>
         </section>
-        <div class="p-3 mb-2 bg-secondary text-white" id="respuestas">
+        <div class="p-3 mb-2 bg-secondary text-white">
+            <table id="data-table" class="table table-hover">
+                <thead>
+                  <tr>
+                    <th id="nombre-header" data-order="asc">Nombre</th>
+                    <th id="email-header" data-order="asc">Email</th>
+                    <th id="telefono-header" data-order="asc">Telefono</th>
+                    <th id="sueldo-header" data-order="asc">Sueldo ofrecido</th>
+                    <th id="sueldoEuro-header" data-order="asc">Sueldo en euros</th>
+                    <th id="sueldoDolar-header" data-order="asc">Sueldo en dolares</th>
+                  </tr>
+                </thead>
+                <tbody id="respuestas">
+                </tbody>
+              </table>
         </div>
     </main>
 
