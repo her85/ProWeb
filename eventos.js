@@ -14,16 +14,17 @@ function validar(e) {
     email = document.querySelector("#email").value;
     telefono = document.querySelector("#telefono").value;
     sueldo = document.querySelector("#sueldo").value;
+    texto = document.querySelector("#texto").value;
 
 
     if (nombre == "") {
         document.querySelector("#nombre").focus();
     } else if (email == "") {
         document.querySelector("#email").focus();
-    } else if (email == "") {
-        document.querySelector("#email").focus();
-    } else if (email == "") {
-        document.querySelector("#email").focus();
+    } else if (telefono == "") {
+        document.querySelector("#telefono").focus();
+    } else if (sueldo == "") {
+        document.querySelector("#sueldo").focus();
     } else {
         sueldo = parseInt(sueldo);
         sueldoEuro = parseInt(sueldo / 259);
@@ -34,9 +35,9 @@ function validar(e) {
             alert("El sueldo ofrecido no esta dentro del minimo pretendido");
 
         } else {
-            oferta = { nombre, email, telefono, sueldo, sueldoEuro, sueldoDolar };
+            oferta = { nombre, email, telefono, sueldo, sueldoEuro, sueldoDolar, texto };
             ofertas.push(oferta);
-            llenarTabla();
+            ordenarSueldo("sueldo");
         }
 
         nombre = document.querySelector("#nombre").value = "";
@@ -62,6 +63,7 @@ function llenarTabla() {
         sueldoColumna = document.createElement("td");
         sueldoEuroColumna = document.createElement("td");
         sueldoDolarColumna = document.createElement("td");
+        textoColumna = document.createElement("td");
 
         nombreColumna.textContent = dato.nombre;
         emailColumna.textContent = dato.email;
@@ -69,7 +71,7 @@ function llenarTabla() {
         sueldoColumna.textContent = "$" + dato.sueldo;
         sueldoEuroColumna.textContent = "€" + dato.sueldoEuro;
         sueldoDolarColumna.textContent = "US$" + dato.sueldoDolar;
-
+        textoColumna.textContent = dato.texto;
 
         fila.appendChild(nombreColumna);
         fila.appendChild(emailColumna);
@@ -77,6 +79,7 @@ function llenarTabla() {
         fila.appendChild(sueldoColumna);
         fila.appendChild(sueldoEuroColumna);
         fila.appendChild(sueldoDolarColumna);
+        fila.appendChild(textoColumna);
         tableBody.appendChild(fila);
     });
 }
@@ -98,6 +101,10 @@ function ordenarTabla(columna) {
         ordenAscendente = true;
     }
 
+    ordenarSueldo(columna);
+}
+
+function ordenarSueldo(columna) {
 
     ofertas.sort((a, b) => {
         if (a[columna] < b[columna]) {
