@@ -168,7 +168,8 @@
                     </div>
                     <div class="mb-3">
                         <label for="telefono" class="form-label">Telefono de contacto</label>
-                        <input type="number" class="form-control" id="telefono" placeholder="1122334455" required>
+                        <input type="number" class="form-control" id="telefono" maxlength="16" placeholder="1122334455"
+                            required>
                     </div>
                     <div class="mb-3">
                         <label for="sueldo" class="form-label">Sueldo que ofrece</label>
@@ -185,16 +186,18 @@
                 </form>
             </section>
         </section>
-        <div>
+        <div class="border border-dark">
             <table id="data-table" class="table table-hover">
                 <thead>
                     <tr>
-                        <th id="nombre-header" data-order="asc"><button type="button" class="btn btn-secondary">Nombre</button></th>
-                        <th id="email-header" data-order="asc"><button type="button" class="btn btn-secondary">Email</button></th>
-                        <th id="telefono-header" data-order="asc"><button type="button" class="btn btn-secondary">Telefono</button></th>
-                        <th id="sueldo-header" data-order="asc"><button type="button" class="btn btn-secondary">Sueldo ofrecido</button></th>
-                        <th id="sueldoEuro-header" data-order="asc"><button type="button" class="btn btn-secondary">Sueldo en euros</button></th>
-                        <th id="sueldoDolar-header" data-order="asc"><button type="button" class="btn btn-secondary">Sueldo en dolares</button></th>
+                        <th id="nombre-header">Nombre
+                        </th>
+                        <th id="email-header">Email</th>
+                        <th id="telefono-header">Telefono</th>
+                        <th id="sueldo-header">Sueldo ofrecido <button type="button" class="btn btn-outline-dark"><img
+                                    src="Imagen/icons8-sorting-arrows-26.png" class="logo" alt="flc"></button></th>
+                        <th id="sueldoEuro-header">Sueldo en euros</th>
+                        <th id="sueldoDolar-header">Sueldo en dolares</th>
                     </tr>
                 </thead>
                 <tbody id="respuestas">
