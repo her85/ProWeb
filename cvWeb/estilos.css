@@ -1,0 +1,44 @@
+body {
+    font-size: 20px;
+    text-align: center;
+}
+
+header {
+    background-image: url(Imagen/perspectiva-de-edificios-desde-arriba-arte-digital_3840x2160_xtrafondos.com.jpg);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+main{
+    margin-top: 20px;
+}
+
+footer {
+    background-image: url(Imagen/perspectiva-de-edificios-desde-arriba-arte-digital_3840x2160_xtrafondos.com.jpg);
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+
+#contenedor{
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+.imagenPerfil {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.logo {
+    max-width: 45px;
+    max-height: 45px;
+}
