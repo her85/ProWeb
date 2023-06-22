@@ -22,6 +22,16 @@ footer {
     border: 1px solid black;
 }
 
+h2,th{
+    text-decoration: underline;
+}
+
+a{
+    color: black;
+    text-decoration: solid;
+}
+
+
 #contenedor {
     width: 960px;
     margin: 15px auto;
@@ -29,18 +39,18 @@ footer {
 }
 
 #formulario{
-    background-image: url(Imagen/perspectiva-de-edificios-desde-arriba-arte-digital_3840x2160_xtrafondos.com.jpg);
-    color: white;
     clear: both;
     text-align: center;
     padding: 20px;
     border-radius: 5px;
-    border: 1px solid black;
+    background-image: url(Imagen/perspectiva-de-edificios-desde-arriba-arte-digital_3840x2160_xtrafondos.com.jpg);
+    color: white;
 }
 
 .contenedorSecundario {
+   
     float: left;
-    width: 580px;
+    width: 570px;
     margin: 20px;
 }
 
@@ -49,6 +59,8 @@ footer {
     width: 300px;
     margin: 20px 0px;
     padding: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
 }
 
 .imagenPerfil {
@@ -64,3 +76,4 @@ footer {
     max-width: 45px;
     max-height: 45px;
 }
+
